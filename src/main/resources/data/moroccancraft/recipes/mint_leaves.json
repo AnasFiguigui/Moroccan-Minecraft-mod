@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:fern" },
+    { "item": "minecraft:fern" }
+  ],
+  "result": {
+    "item": "moroccancraft:mint_leaves",
+    "count": 2
+  }
+}

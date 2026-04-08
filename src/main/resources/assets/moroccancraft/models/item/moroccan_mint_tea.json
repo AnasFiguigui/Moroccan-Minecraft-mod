@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "moroccancraft:item/moroccan_mint_tea"
+  }
+}

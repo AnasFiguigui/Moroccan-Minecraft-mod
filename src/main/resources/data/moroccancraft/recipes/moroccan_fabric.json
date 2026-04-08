@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WSW",
+    "SDS",
+    "WSW"
+  ],
+  "key": {
+    "W": { "item": "minecraft:white_wool" },
+    "S": { "item": "minecraft:string" },
+    "D": { "item": "minecraft:red_dye" }
+  },
+  "result": {
+    "item": "moroccancraft:moroccan_fabric",
+    "count": 4
+  }
+}

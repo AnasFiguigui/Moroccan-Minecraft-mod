@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:cooked_chicken" },
+    { "item": "minecraft:egg" },
+    { "item": "minecraft:sugar" },
+    { "item": "minecraft:wheat" }
+  ],
+  "result": {
+    "item": "moroccancraft:chicken_pastilla",
+    "count": 1
+  }
+}

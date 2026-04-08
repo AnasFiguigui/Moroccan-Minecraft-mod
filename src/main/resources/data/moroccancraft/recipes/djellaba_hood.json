@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "F F"
+  ],
+  "key": {
+    "F": { "item": "moroccancraft:moroccan_fabric" }
+  },
+  "result": {
+    "item": "moroccancraft:djellaba_hood",
+    "count": 1
+  }
+}

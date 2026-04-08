@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F"
+  ],
+  "key": {
+    "F": { "item": "moroccancraft:moroccan_fabric" }
+  },
+  "result": {
+    "item": "moroccancraft:babouche_slippers",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:bowl" },
+    { "item": "minecraft:cooked_chicken" },
+    { "item": "minecraft:carrot" },
+    { "item": "minecraft:potato" }
+  ],
+  "result": {
+    "item": "moroccancraft:tagine",
+    "count": 1
+  }
+}
