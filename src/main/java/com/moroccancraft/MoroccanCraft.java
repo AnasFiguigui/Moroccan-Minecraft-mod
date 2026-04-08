@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(MoroccanCraft.MOD_ID)
+@SuppressWarnings("java:S1118")
 public class MoroccanCraft {
     public static final String MOD_ID = "moroccancraft";
 

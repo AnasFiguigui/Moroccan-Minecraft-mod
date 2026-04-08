@@ -9,6 +9,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
+import javax.annotation.Nonnull;
+
 public enum ModArmorMaterials implements ArmorMaterial {
     DJELLABA("djellaba", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_LEATHER,
             2.0f, 0.0f, () -> Ingredient.of(ModItems.MOROCCAN_FABRIC.get()));
@@ -24,6 +26,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = {13, 15, 16, 11};
 
+    @SuppressWarnings("java:S107")
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts,
                       int enchantmentValue, SoundEvent equipSound, float toughness,
                       float knockbackResistance, Supplier<Ingredient> repairIngredient) {
@@ -38,12 +41,12 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     @Override
-    public int getDurabilityForType(ArmorItem.Type type) {
+    public int getDurabilityForType(@Nonnull ArmorItem.Type type) {
         return BASE_DURABILITY[type.ordinal()] * this.durabilityMultiplier;
     }
 
     @Override
-    public int getDefenseForType(ArmorItem.Type type) {
+    public int getDefenseForType(@Nonnull ArmorItem.Type type) {
         return this.protectionAmounts[type.ordinal()];
     }
 

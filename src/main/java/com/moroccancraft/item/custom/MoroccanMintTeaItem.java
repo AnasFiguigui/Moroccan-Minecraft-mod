@@ -10,13 +10,16 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
+import javax.annotation.Nonnull;
+
+@SuppressWarnings("null")
 public class MoroccanMintTeaItem extends Item {
     public MoroccanMintTeaItem(Properties properties) {
         super(properties);
     }
 
     @Override
-    public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity livingEntity) {
+    public ItemStack finishUsingItem(@Nonnull ItemStack stack, @Nonnull Level level, @Nonnull LivingEntity livingEntity) {
         if (!level.isClientSide) {
             livingEntity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0));
             livingEntity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0));
@@ -39,12 +42,12 @@ public class MoroccanMintTeaItem extends Item {
     }
 
     @Override
-    public int getUseDuration(ItemStack stack) {
+    public int getUseDuration(@Nonnull ItemStack stack) {
         return 32;
     }
 
     @Override
-    public UseAnim getUseAnimation(ItemStack stack) {
+    public UseAnim getUseAnimation(@Nonnull ItemStack stack) {
         return UseAnim.DRINK;
     }
 }
