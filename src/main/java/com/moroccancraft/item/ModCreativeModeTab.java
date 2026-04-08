@@ -29,6 +29,11 @@ public class ModCreativeModeTab {
                         output.accept(ModItems.HARIRA.get());
                         output.accept(ModItems.CHICKEN_PASTILLA.get());
                         output.accept(ModItems.MOROCCAN_MINT_TEA.get());
+                        output.accept(ModItems.MUSIC_DISC_GNAWA.get());
+                        output.accept(ModItems.MUSIC_DISC_ANDALUSI.get());
+                        output.accept(ModItems.MUSIC_DISC_CHAABI.get());
+                        output.accept(ModItems.MUSIC_DISC_RAI.get());
+                        output.accept(ModItems.MUSIC_DISC_MALHOUN.get());
                     })
                     .build());
 

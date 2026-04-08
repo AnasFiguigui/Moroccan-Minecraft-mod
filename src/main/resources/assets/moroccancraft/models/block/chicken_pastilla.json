@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "moroccancraft:block/chicken_pastilla_top",
+    "side": "moroccancraft:block/chicken_pastilla_side",
+    "bottom": "moroccancraft:block/chicken_pastilla_bottom",
+    "particle": "moroccancraft:block/chicken_pastilla_side"
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 4, 14],
+      "faces": {
+        "up":    { "texture": "#top" },
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "east":  { "texture": "#side" },
+        "west":  { "texture": "#side" }
+      }
+    }
+  ]
+}

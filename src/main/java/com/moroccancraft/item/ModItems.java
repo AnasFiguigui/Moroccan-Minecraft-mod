@@ -1,11 +1,11 @@
 package com.moroccancraft.item;
 
 import com.moroccancraft.MoroccanCraft;
+import com.moroccancraft.block.ModBlocks;
 import com.moroccancraft.item.custom.MoroccanMintTeaItem;
+import com.moroccancraft.sound.ModSounds;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -39,29 +39,48 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.DJELLABA, ArmorItem.Type.BOOTS,
                     new Item.Properties()));
 
-    // ===== Moroccan Food =====
+    // ===== Moroccan Food (Placeable like cake) =====
     public static final RegistryObject<Item> TAGINE = ITEMS.register("tagine",
-            () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder().nutrition(10).saturationMod(0.8f).build())));
+            () -> new BlockItem(ModBlocks.TAGINE.get(), new Item.Properties()));
 
     public static final RegistryObject<Item> COUSCOUS = ITEMS.register("couscous",
-            () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder().nutrition(8).saturationMod(0.6f).build())));
+            () -> new BlockItem(ModBlocks.COUSCOUS.get(), new Item.Properties()));
 
+    public static final RegistryObject<Item> CHICKEN_PASTILLA = ITEMS.register("chicken_pastilla",
+            () -> new BlockItem(ModBlocks.CHICKEN_PASTILLA.get(), new Item.Properties()));
+
+    // ===== Moroccan Food (Handheld) =====
     public static final RegistryObject<Item> HARIRA = ITEMS.register("harira",
             () -> new Item(new Item.Properties().food(
                     new FoodProperties.Builder().nutrition(7).saturationMod(0.7f).build())
                     .craftRemainder(Items.BOWL)));
-
-    public static final RegistryObject<Item> CHICKEN_PASTILLA = ITEMS.register("chicken_pastilla",
-            () -> new Item(new Item.Properties().food(
-                    new FoodProperties.Builder().nutrition(9).saturationMod(0.8f).build())));
 
     // ===== Moroccan Mint Tea =====
     public static final RegistryObject<Item> MOROCCAN_MINT_TEA = ITEMS.register("moroccan_mint_tea",
             () -> new MoroccanMintTeaItem(new Item.Properties()
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.3f).alwaysEat().build())
                     .stacksTo(16)));
+
+    // ===== Music Discs (Moroccan genres) =====
+    public static final RegistryObject<Item> MUSIC_DISC_GNAWA = ITEMS.register("music_disc_gnawa",
+            () -> new RecordItem(1, ModSounds.DISC_GNAWA,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3600));
+
+    public static final RegistryObject<Item> MUSIC_DISC_ANDALUSI = ITEMS.register("music_disc_andalusi",
+            () -> new RecordItem(2, ModSounds.DISC_ANDALUSI,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3600));
+
+    public static final RegistryObject<Item> MUSIC_DISC_CHAABI = ITEMS.register("music_disc_chaabi",
+            () -> new RecordItem(3, ModSounds.DISC_CHAABI,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3600));
+
+    public static final RegistryObject<Item> MUSIC_DISC_RAI = ITEMS.register("music_disc_rai",
+            () -> new RecordItem(4, ModSounds.DISC_RAI,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3600));
+
+    public static final RegistryObject<Item> MUSIC_DISC_MALHOUN = ITEMS.register("music_disc_malhoun",
+            () -> new RecordItem(5, ModSounds.DISC_MALHOUN,
+                    new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3600));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,0 +1,42 @@
+{
+  "disc_gnawa": {
+    "sounds": [
+      {
+        "name": "moroccancraft:disc_gnawa",
+        "stream": true
+      }
+    ]
+  },
+  "disc_andalusi": {
+    "sounds": [
+      {
+        "name": "moroccancraft:disc_andalusi",
+        "stream": true
+      }
+    ]
+  },
+  "disc_chaabi": {
+    "sounds": [
+      {
+        "name": "moroccancraft:disc_chaabi",
+        "stream": true
+      }
+    ]
+  },
+  "disc_rai": {
+    "sounds": [
+      {
+        "name": "moroccancraft:disc_rai",
+        "stream": true
+      }
+    ]
+  },
+  "disc_malhoun": {
+    "sounds": [
+      {
+        "name": "moroccancraft:disc_malhoun",
+        "stream": true
+      }
+    ]
+  }
+}

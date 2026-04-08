@@ -9,10 +9,21 @@
   "item.moroccancraft.djellaba_pants": "Djellaba Pants",
   "item.moroccancraft.babouche_slippers": "Babouche Slippers",
 
-  "item.moroccancraft.tagine": "Tagine",
-  "item.moroccancraft.couscous": "Couscous",
-  "item.moroccancraft.harira": "Harira",
-  "item.moroccancraft.chicken_pastilla": "Chicken Pastilla",
+  "block.moroccancraft.tagine": "Tagine",
+  "block.moroccancraft.couscous": "Couscous",
+  "block.moroccancraft.chicken_pastilla": "Chicken Pastilla",
 
-  "item.moroccancraft.moroccan_mint_tea": "Moroccan Mint Tea"
+  "item.moroccancraft.harira": "Harira",
+  "item.moroccancraft.moroccan_mint_tea": "Moroccan Mint Tea",
+
+  "item.moroccancraft.music_disc_gnawa": "Music Disc",
+  "item.moroccancraft.music_disc_gnawa.desc": "Gnawa - Traditional Spiritual Music",
+  "item.moroccancraft.music_disc_andalusi": "Music Disc",
+  "item.moroccancraft.music_disc_andalusi.desc": "Andalusi - Classical Andalusian Music",
+  "item.moroccancraft.music_disc_chaabi": "Music Disc",
+  "item.moroccancraft.music_disc_chaabi.desc": "Chaabi - Popular Folk Music",
+  "item.moroccancraft.music_disc_rai": "Music Disc",
+  "item.moroccancraft.music_disc_rai.desc": "Rai - North African Genre",
+  "item.moroccancraft.music_disc_malhoun": "Music Disc",
+  "item.moroccancraft.music_disc_malhoun.desc": "Malhoun - Traditional Poetry-Song"
 }

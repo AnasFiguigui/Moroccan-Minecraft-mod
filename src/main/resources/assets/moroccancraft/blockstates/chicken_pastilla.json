@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "bites=0": { "model": "moroccancraft:block/chicken_pastilla" },
+    "bites=1": { "model": "moroccancraft:block/chicken_pastilla" },
+    "bites=2": { "model": "moroccancraft:block/chicken_pastilla" },
+    "bites=3": { "model": "moroccancraft:block/chicken_pastilla" }
+  }
+}
