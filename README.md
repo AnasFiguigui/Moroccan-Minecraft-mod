@@ -8,14 +8,14 @@ A Moroccan-themed Minecraft mod for **Forge 1.20.1** that adds traditional Moroc
 
 ## Features
 
-### Djellaba Armor Set (Diamond-tier)
+### Jellaba Armor Set (Diamond-tier)
 Full 4-piece armor set crafted from **Moroccan Fabric** — a custom ingredient made from wool, string, and red dye.
 
 | Piece | Slot | Protection | Durability |
 |-------|------|------------|------------|
-| Djellaba Hood | Head | 3 | 363 |
-| Djellaba Robe | Chest | 8 | 528 |
-| Djellaba Pants | Legs | 6 | 495 |
+| Jellaba Hood | Head | 3 | 363 |
+| Jellaba Robe | Chest | 8 | 528 |
+| Jellaba Pants | Legs | 6 | 495 |
 | Babouche Slippers | Feet | 3 | 429 |
 
 **Armor toughness:** 2.0 — **Repair ingredient:** Moroccan Fabric
@@ -121,7 +121,7 @@ src/main/
 │   │       └── MoroccanFoodBlock.java  # Placeable food block (cake-style)
 │   ├── item/
 │   │   ├── ModItems.java              # Item registrations
-│   │   ├── ModArmorMaterials.java     # Djellaba armor material
+│   │   ├── ModArmorMaterials.java     # Jellaba armor material
 │   │   ├── ModCreativeModeTab.java    # Creative inventory tab
 │   │   └── custom/
 │   │       └── MoroccanMintTeaItem.java  # Tea with potion effects
@@ -163,13 +163,13 @@ All textures are programmatically generated placeholders. Replace them with pixe
 - **Item textures** (16×16 PNG): `src/main/resources/assets/moroccancraft/textures/item/`
 - **Block textures** (16×16 PNG): `src/main/resources/assets/moroccancraft/textures/block/`
 - **Armor overlays** (64×32 PNG): `src/main/resources/assets/moroccancraft/textures/models/armor/`
-  - `djellaba_layer_1.png` — head, chest, boots overlay
-  - `djellaba_layer_2.png` — leggings overlay
+  - `Jellaba_layer_1.png` — head, chest, boots overlay
+  - `Jellaba_layer_2.png` — leggings overlay
 
-## License
+<!-- ## License
 
-MIT
+MIT -->
 
-## Author
+<!-- ## Author
 
-[AnasFiguigui](https://github.com/AnasFiguigui)
+[AnasFiguigui](https://github.com/AnasFiguigui) -->
